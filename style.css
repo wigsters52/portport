@@ -1,9 +1,8 @@
-#about-me {
-  border: 10px;
-  border-color: green;
+.navbar {
+  background-color: transparent;
 }
-
-#ssportfolio {
-  border: 10px;
-  border-color: hotpink;
+#logo-picture {
+  max-height: 3rem;
+  max-width: 3rem;
+  padding-right: 1rem;
 }
