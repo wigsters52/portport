@@ -32,11 +32,38 @@ body {
     padding: 2em 0;
 }
 
+.header-links a {
+    color: inherit;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.header-links a:hover {
+    cursor: pointer;
+    background-color: #1f2833;
+    color: #c5c6c7;
+}
+
+a:active {
+    background-color: black;
+}
+
+a:visited {
+    background-color: #ccc;
+}
+
 .picture {
-    width: 100%;
+    width: auto;
+    height: 10em;
 }
 
 .cards {
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    flex: 0 1 50%;
 }
