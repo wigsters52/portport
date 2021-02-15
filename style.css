@@ -2,19 +2,26 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: Nanum_Gothic;
+    src: url('assets/fonts/NanumGothic-Regular.ttf');
+}
+
 :root {
     --main-text-color: #66FCF1;
 }
 
 body {
-    background-color: #0b0c10;
+    background: url('./assets/backgroundimg.jpg')no-repeat center center fixed;
+    background-size: cover;
     color: var(--main-text-color);
     display: flex;
     flex-direction: column;
+    font-family: Nanum_Gothic, sans-serif;
 }
 
 .logo-picture {
-    max-height: 300px;
+    max-height: 10em;
     margin: 0 auto;
     /* poor attempt at centering */
     height: auto !important;
@@ -52,9 +59,16 @@ a:visited {
     background-color: #ccc;
 }
 
-.picture {
-    width: auto;
-    height: 10em;
+.about-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about-me h1 {
+    font-size: 3em;
+    font-weight: 900;
 }
 
 .cards {
