@@ -1,107 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
-      integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w=="
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css" />
-    <title>Document</title>
-  </head>
+    <title>Ryan's Website</title>
+</head>
 
-  <body>
+<body>
     <div class="container">
-      <div class="header-container">
-        <div>
-          <img
-            src="./assets/logo1.svg"
-            alt="Logo Picture"
-            srcset=""
-            class="logo-picture"
-          />
+        <div class="header-container">
+            <div>
+                <img src="./assets/logo1.svg" alt="Logo Picture" srcset="" class="logo-picture" />
+            </div>
+            <div class="header">
+                <div class="header-links">
+                    <a href="#home" id="home">
+                        <h2>Home</h2>
+                    </a>
+                    <a href="#portfolio">
+                        <h2>Portfolio</h2>
+                    </a>
+                    <a href="#contact">
+                        <h2>Contact</h2>
+                    </a>
+                </div>
+            </div>
         </div>
-        <div class="header">
-          <div class="header-links">
-            <a href="#home" id="home">Home</a>
-            <a href="#portfolio">Portfolio</a>
-            <a href="#contact">Contact</a>
-          </div>
+        <div class="about-me">
+            <h1>WHO I AM:</h1>
+            <p>
+                Hello, my name is Ryan. I am a full stack web developer living in Brooklyn, NY. I work with HTML, CSS, Javascript, NodeJS, Express, MongoDB, MySQL, React and Vue. Right now, I am continuing to learn more about those and starting to learn about PostgreSQL
+                and TailwindCSS. When not learning or working on a project, I get to hang out with my wife and dog, Sam and Ted. I started running during the pandemic and ended up running a marathon. Now I am training for a 50K ultra marathon. My other
+                favorite pastimes are drinking coffee and eating tacos and pizza. Growing up near or in Cleveland most of my life I was raised loving the Browns, Cleveland Baseball team and Cavs(we miss you Lebron). One day, maybe I will be able to watch
+                a Mets vs Cleveland Baseball team world series.
+            </p>
         </div>
-      </div>
-      <div class="about-me">
-        <h1>WHO I AM:</h1>
-        <p>
-          Hello, my name is Ryan. I am a full stack web developer living in
-          Brooklyn, NY. I work with HTML, CSS, Javascript, NodeJS, Express,
-          MongoDB, MySQL, React and Vue. Right now, I am continuing to learn
-          more about those and starting to learn about PostgreSQL and
-          TailwindCSS. When not learning or working on a project, I get to hang
-          out with my wife and dog, Sam and Ted. I started running during the
-          pandemic and ended up running a marathon. Now I am training for a 50K
-          ultra marathon. My other favorite pastimes are drinking coffee and
-          eating tacos and pizza. Growing up near or in Cleveland most of my
-          life I was raised loving the Browns, Cleveland Baseball team and
-          Cavs(we miss you Lebron). One day, maybe I will be able to watch a
-          Mets vs Cleveland Baseball team world series.
-        </p>
-      </div>
-      <div class="portfolio-container">
-        <h1>PORTFOLIO</h1>
-        <div class="row">
-          <div class="card">
-            <div class="card-img">
-              <img src="" alt="" />
-            </div>
-            <div class="card-body">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi
-                neque molestiae eius explicabo mollitia tempore reiciendis, vel,
-                sequi.
-              </p>
-              <a href="#" class="btn">Read more</a>
+        <div class="portfolio-container">
+            <h1>PORTFOLIO</h1>
+            <div class="row">
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Calorie Tracker</h2>
+                    </div>
+
+                    <div class="card-body">
+                        <p>
+                            An application that tracks your calories per meal.This application uses vanilla javascript for the functionality.
+                        </p>
+                        <a href="https://vigilant-wing-7ed599.netlify.app/" class="btn" target="_blank" rel="noopener noreferrer">Check it out!</a
+              >
             </div>
           </div>
           <div class="card">
             <div class="card-header">
-              <h1>Vue</h1>
+              <h2>Github Finder!</h2>
             </div>
             <div class="card-body">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi
-                neque molestiae eius explicabo mollitia tempore reiciendis, vel,
-                sequi.
+                This application uses the Github API to allow a user to search
+                users and check out their repos.
               </p>
               <a href="#" class="btn">Read more</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h2>Vue-To-Do-List</h2>
+                    </div>
+                    <div class="card-body">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi neque molestiae eius explicabo mollitia tempore reiciendis, vel, sequi.
+                        </p>
+                        <a href="https://agitated-lamarr-e7ed8c.netlify.app/" class="btn" target="_blank" rel="noopener noreferrer">Check it out!</a
+              >
             </div>
           </div>
           <div class="card">
             <div class="card-header">
-              <h1>Angular</h1>
+              <h2>Beer-App</h2>
             </div>
             <div class="card-body">
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi
-                neque molestiae eius explicabo mollitia tempore reiciendis, vel,
-                sequi.
+                Following along with Scrimba's Fetch Advanced Portion of the
+                Frontend Developer Career Path. This will be using the Punk API.
               </p>
-              <a href="#" class="btn">Read more</a>
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-header">
-              <h1>JQuery</h1>
-            </div>
-            <div class="card-body">
-              <p>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi
-                neque molestiae eius explicabo mollitia tempore reiciendis, vel,
-                sequi.
-              </p>
-              <a href="#" class="btn">Read more</a>
+              <a
+                href="https://wigsters52.github.io/Beer-App/"
+                class="btn"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Check it out!</a
+              >
             </div>
           </div>
         </div>
@@ -109,14 +101,17 @@
 
       <h1>Contact</h1>
       <div class="contact" id="contact">
-        <a href="www.github.com/wigsters52"
-          ><div class="fab fa-github fa-3x"><p>Github</p></div></a
-        >
+        <a href="www.github.com/wigsters52">
+          <div class="fab fa-github fa-3x">
+            <p>Github</p>
+          </div>
+        </a>
 
-        <div class="email">Email</div>
-        <div class="phone">Number</div>
-        <div class="resume">Resume</div>
-      </div>
-    </div>
-  </body>
+                        <div class="email">Email</div>
+                        <div class="phone">Number</div>
+                        <div class="resume">Resume</div>
+                    </div>
+                </div>
+</body>
+
 </html>
