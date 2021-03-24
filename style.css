@@ -131,7 +131,7 @@ a:visited {
     background-color: #c5c6c7;
     color: #0b0c10;
     display: inline-block;
-    background: linear-gradient(to right, #45a29e 0%, #45a29e 50%, #ffffff 50%, #ffffff 100%);
+    background: linear-gradient(to right, #45a29e 0%, #45a29e 50%, #c5c6c7 50%, #c5c6c7 100%);
     background-size: 200% 100%;
     background-position: 100% 0;
     transition: background-position 0.5s;
